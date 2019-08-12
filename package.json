@@ -1,0 +1,25 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Third css project called Nexter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oddisey000/nexter.git"
+  },
+  "keywords": [
+    "nexter"
+  ],
+  "author": "Vitalii Pertsovych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oddisey000/nexter/issues"
+  },
+  "homepage": "https://github.com/Oddisey000/nexter#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
