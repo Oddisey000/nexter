@@ -4,7 +4,7 @@
   "description": "Third css project called Nexter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass dev/sass/main.scss dev/css/style_dev.css"
   },
   "repository": {
     "type": "git",
