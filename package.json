@@ -4,7 +4,9 @@
   "description": "Third css project called Nexter",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass dev/sass/main.scss dev/css/style_dev.css"
+    "compile:sass": "node-sass dev/sass/main.scss dev/css/style_dev.css",
+    "concat:css": "concat -o dev/css/style_concat.css dev/fonts/josefin_sans.css dev/css/style_dev.css",
+    "compress:css": "node-sass dev/css/style_concat.css assets/css/style.css --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/Oddisey000/nexter#readme",
   "devDependencies": {
+    "concat": "^1.0.3",
     "node-sass": "^4.12.0"
   }
 }
