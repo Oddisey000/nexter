@@ -23,6 +23,6 @@
   "homepage": "https://github.com/Oddisey000/nexter#readme",
   "devDependencies": {
     "concat": "^1.0.3",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
